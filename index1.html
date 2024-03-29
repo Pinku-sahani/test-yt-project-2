@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Gym in Noida www.bestgymnoida.com</title>
+    <style>
+        body{
+    margin:0px;
+    padding:0px;
+    background-image: url("/gym image.jpg");
+    background-size: cover;
+    color:white;
+}
+.container{
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+.list{
+    display: inline-block;
+    margin-left:45px;
+    padding:25px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800;
+    cursor: pointer;
+}
+.list:hover{
+    text-decoration: underline;
+
+    color:brown;
+}
+.list-home{
+    text-decoration: underline;
+
+    color:brown;
+
+}
+
+
+.sample_form{
+    margin-top:200px;
+    margin-left:70px;
+    display: inline-block;
+    /* border: 2px solid white; */
+    font-size:25px;
+
+}
+
+.input-box{
+    padding:10px;
+   
+    width:400px;
+    margin-top:15px;
+    border-radius: 10px;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#label-1{
+    margin-left:100px;
+}
+#label-2{
+    margin-left:80px;
+}
+#label-3{
+    margin-left:5px;
+}
+#label-4{
+    margin-left:80px;
+}
+
+.btn{
+   
+    margin-left:60%;
+    margin-top:30px;
+    padding:15px 30px;
+    font-size:20px;
+    border-radius: 10px;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <li class="list list-home">Home</li>
+                <li class="list">About Us</li>
+                <li class="list">Services</li>
+                <li class="list">Contact Us</li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class=" sample_form " action="noaction.py">
+            <label for="label-1">
+                Enter your Name : <input class="input-box" id="label-1" type="text" placeholder="Enter your Name :">
+            </label> <br>
+            <label for="label-2">
+               
+                Enter your Locality : <input class="input-box" id="label-2" type="text" placeholder="Enter your Locality :">
+            </label> <br>
+            <label for="label-3">
+                Enter your contact number : <input class="input-box" id="label-3" type="text" placeholder="Enter your contact number :">
+            </label> <br>
+            <label for="label-4">
+                Enter your program : <input class="input-box" id="label-4" type="text" placeholder="Enter your program : ">
+            </label><br>
+            <button class="btn">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
